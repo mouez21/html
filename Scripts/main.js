@@ -21,7 +21,7 @@ function estableceNombreUsuario(){
   }
   else{
     var nombreAlmacenado = localStorage.getItem('nombre');
-    miTitulo.textContent = 'Mozilla es cool,' + nombreAlmacenado;    
+    miTitulo.textContent = 'Mozilla es cool, ' + nombreAlmacenado;    
   }
 }
 
